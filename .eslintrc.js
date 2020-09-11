@@ -27,6 +27,8 @@ module.exports = {
       'error',
       { functions: false, classes: false }
     ],
-    'import/named': 'off' // Turn it off because it does not support `export * as ns` that is a new feature of es2020.
+    'import/named': 'off', // Turn it off because it does not support `export * as ns` that is a new feature of es2020.
+    "no-var-requires": false,
+    "@typescript-eslint/no-var-requires": false
   }
 }
